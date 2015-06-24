@@ -1,0 +1,24 @@
+/************************************
+GENERAL STYLING
+************************************/
+html {
+    font-size:100%;
+}
+
+body {
+    font-family: 'Rosario', sans-serif;
+    font-size: 16px;
+}
+
+.logo-con {
+	height: 40px;
+}
+
+.logo-con img {
+	height: 55px;
+}
+
+#hero {
+	height: 130%;
+	width: 100%;
+}
