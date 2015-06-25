@@ -1,12 +1,6 @@
 /************************************
 GENERAL STYLING
 ************************************/
-footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
-
 .logo-con {
 	height: 40px;
 }
@@ -56,7 +50,7 @@ h2{
     margin-bottom: 10px;
 }
 h3{
-    color:#ddd;
+    /*color:#ddd;*/
     font-size:1.5em;
     font-weight:normal;
     padding:10px 0px 10px 0px;
