@@ -2,11 +2,15 @@
 GENERAL STYLING
 ************************************/
 .logo-con {
-	height: 40px;
+	height: 3em;
 }
 
 .logo-con img {
-	height: 55px;
+	height: 4em;
+}
+
+section.largecontent {;
+   background:  #1c1a17;
 }
 
 #hero {
@@ -23,8 +27,6 @@ h2,h3, .video-title{
     font-weight:normal;
 }
 body{
-    background-color:fff;
-    color:#222;
     font: 13px/20px font-family: 'Rosario', sans-serif;
     -moz-hyphens: auto;
     word-wrap: break-word;
@@ -93,9 +95,7 @@ hr.small-highlight{
     width: 20px;
     margin: 12px 2px 15px;
     border:0;
-
     background-color: #934c4c;
-
     height: 3px;
 }
 .color-highlight{
@@ -134,7 +134,6 @@ a.bluestyle:hover{
     font-size:32px;
     font-family: Courier New, Arial;
     font-style:italic;
-
     line-height:1em;
 }
 
@@ -191,8 +190,6 @@ a.bluestyle:hover{
     margin-top:15px;
     margin-bottom:15px;
 }
-
-
 
 .main-menu .button {
 
