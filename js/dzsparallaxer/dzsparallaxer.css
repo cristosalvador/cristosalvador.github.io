@@ -25,7 +25,8 @@
 .dzsparallaxer {
   height: 300px;
   overflow: hidden;
-  background-color: #1c1a17;
+  background: #466368;
+  background: radial-gradient(#648880, #293f50);
   position: relative;
   transition-property: height;
   transition-duration: 0.3s;
@@ -47,7 +48,7 @@
   .dzsparallaxer .dzsparallaxer--blackoverlay {
     position: absolute;
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #466368;
     top: 0;
     left: 0;
     width: 100%;
