@@ -18,12 +18,18 @@ section.largecontent {;
 	width: 100%;
 }
 
+@font-face {
+    font-family: LibertadOfficeBold;
+    src: url("LibertadOfficeBold.otf") format("opentype");
+}
+
 html{
+    font-family: LibertadOfficeBold;
     font-size:100%;
 }
 
 h2,h3, .video-title{
-    font-family: 'Open Sans', Verdana, sans-serif;
+    /*font-family: 'Open Sans', Verdana, sans-serif;*/
     font-weight:normal;
 }
 body{
