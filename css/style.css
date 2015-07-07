@@ -409,21 +409,6 @@ content: "";
     color:#fff;
 }
 
-
-
-
-
-@media (max-width: 767px) {
-
-    section.mcon-mainmenu{
-        position: relative;
-    }
-    section.mcon-maindemo{
-        position: relative;
-    }
-}
-
-
 section.mcon-otherdemos{
     background: #fafafa;
     padding: 25px 0;
