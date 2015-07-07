@@ -1,12 +1,8 @@
 /************************************
 GENERAL STYLING
 ************************************/
-.logo-con {
-	height: 3em;
-}
-
 .logo-con img {
-	height: 4em;
+	height: 6em;
 }
 
 section.largecontent {;
@@ -383,9 +379,9 @@ content: "";
 
 
 .main-menu{
-    position:relative;
-    margin-top:5px;
-    margin-bottom:15px;
+  /*  position:relative;
+    margin-top:5px; 
+    margin-bottom:15px;*/
 }
 
 
@@ -611,10 +607,7 @@ section.mcon-demo-with-bg .container{
 .con-mainmenu{
     margin-top:10px;
 }
-section[class*="mcon-"] .row{
-    margin-top:15px;
-    margin-bottom:15px;
-}
+
 .con-features{
     background: #495d6d url(img/ptn-02.png) repeat center center;
 }
