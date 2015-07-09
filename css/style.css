@@ -14,6 +14,12 @@ section.largecontent {;
 	width: 100%;
 }
 
+.heroimage {
+   height: 20em;
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 20px;
+}
+
 @font-face {
     font-family: LibertadOfficeBold;
     src: url("LibertadOfficeBold.otf") format("opentype");
@@ -29,7 +35,7 @@ h2,h3, .video-title{
     font-weight:normal;
 }
 body{
-    font: 13px/20px font-family: 'Rosario', sans-serif;
+    font: 13px/20px font-family: 'LibertadOfficeBold', sans-serif;
     -moz-hyphens: auto;
     word-wrap: break-word;
 }
@@ -47,6 +53,7 @@ p{ margin-bottom:8px;
 h1{
     font-size:2.2rem;
     font-weight: 300;
+    color: #00A38D;
 }
 h2{
     font-size:2em;
@@ -191,6 +198,7 @@ a.bluestyle:hover{
     position:relative;
     margin-top:15px;
     margin-bottom:15px;
+    font-family: LibertadOfficeBold;    
 }
 
 .main-menu .button {
@@ -248,7 +256,7 @@ h2.row-title{
 }
 .hero-heading{
     text-align: right;
-    color: #444;
+   /* color: #444;*/
 }
 
 .title-feature{
@@ -264,23 +272,18 @@ h2.row-title{
 
 
 section.mcon-mainmenu{
-
     position: fixed;
     z-index: 0;
     top:0; left:0;
     width: 100%;
     display: block;
-    background-color: rgba(50,50,50,0.5);
-
+    background-color: rgba(255,255,255,0.6);
 }
 
 
 section.mcon-mainmenu > .container{
-    margin: 10px auto;
+    margin: 5px auto;
 }
-
-
-
 
 
 section.mcon-maindemo{
@@ -398,15 +401,19 @@ content: "";
     margin-left: 10px;
 }
 .main-menu > li > a{
-    color: #ccc;
+    color: #323232;
     padding: 4px 1px;
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-    opacity: 0.8;
+    opacity: 0.9;
 }
+
 .main-menu > li.active > a, .main-menu > li > a:hover{
+    background-color: transparent;
     text-decoration: none;
     opacity: 0.9;
-    color:#fff;
+    border-radius: 8px;
+    padding: 2px;
+    border-bottom: 2px solid rgba(0,0,0,0.7);    
+    color: #00A38D;
 }
 
 section.mcon-otherdemos{

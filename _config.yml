@@ -1,10 +1,9 @@
 # Site settings
-title: Iglesia Evangélica de CRISTO SALVADOR
+title: Iglesia Cristo Salvador Madrid
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Iglesia Evangélica de Cristo Salvador, Madrid.
+description: Cristo Salvador es una Iglesia Evangélica, unida en una misión para compartir la gracia magnifica de Dios con nuestra ciudad Madrid.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://cristomadrid.es" # the base hostname & protocol for your site
 github_username:  cristosalvador
 
 images_path: /images
