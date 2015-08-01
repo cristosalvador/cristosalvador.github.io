@@ -24,6 +24,30 @@ section.largecontent {;
     background-color: rgba(255, 255, 255, 0.65);
 }
 
+#contacto {
+    font-family: LibertadOfficeBold;
+}
+
+#connectoptions {
+    height: 15em;
+}
+
+#contact-address {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.contacticon {
+    padding: 4px;
+    padding-right: 8px;
+    width: 53px;
+}
+
+.connect-choice > div {
+    color: #eee;
+    padding: 15px;
+}
+
 @font-face {
     font-family: LibertadOfficeBold;
     src: url("LibertadOfficeBold.otf") format("opentype");

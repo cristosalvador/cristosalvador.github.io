@@ -7,12 +7,20 @@
                 <div class="logo-con col-md-3 col-sm-6">
                     <img src="{{ site.images_path }}/logos/Lateral_sinfondo.png" alt="{{ site.title }}" style="margin:0 auto"/>
                 </div>
-                <div class="col-md-9 col-sm-6">
-                    <ul class="main-menu nav navbar-right">
+                <div id="navbar-main" class="col-md-9 col-sm-6 collapse navbar-collapse navbar-right">
+                    <ul class="main-menu nav ">
                         <li class="home"><a href="index.html">INICIO</a></li>
-                        <li class="domingos"><a href="domingos.html">DOMINGOS</a></li>
-                        <li class="mission"><a href="mission.html">CONÉCTATE</a></li>
-                        <li class=""><a href="3d.html">CONTACTO</a></li>
+                        <li class="domingos"><a href="index.html#domingo">DOMINGOS</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONÉCTATE<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="newf.html">New Frontiers</a></li>
+                                <li><a href="mission.html">Mission</a></li>
+                                <li><a href="3d.html">3 D</a></li>
+                                <li><a href="cimientos.html">Cimientos</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="index.html#contaco">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
