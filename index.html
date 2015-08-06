@@ -11,11 +11,11 @@ menuactive : home
 	    </div>
 	</section>
 
-    <section class="mcon-otherdemos shadow-top">
+    <section id="bienvenido" class="mcon-otherdemos shadow-top">
         <div class="container">
             <div class="row">
-                <div class="col-md-3"> </div>
-                <div class="col-md-9 border-box">
+                <div class="col-md-1"> </div>
+                <div class="col-md-11 border-box">
                     <h1 class="hero-heading">Bienvenido a Cristo Salvador una iglesia evangélica de Madrid.</h1>
                     <h3 class="color-highlight">Somos una familia, compuesta de gente de todos trasfondos, unida en una misión para compartir la gracia magnifica de Dios con nuestra ciudad Madrid.</h3>
                 </div>
@@ -23,57 +23,45 @@ menuactive : home
         </div>
     </section>
     <section id="domingo" class="page-banner">
-        <div class="hidden-xs hidden-sm dzsparallaxer auto-init use-loading"  data-options='{ direction: "reverse", mode_scroll: "fromtop"}' style="height:40em;">
-            <div class="divimage dzsparallaxer--target " style="width: 100%; height: 60em; background-image: url({{ site.images_path }}/dom4.jpg)"> </div>
+        <div class="hidden-xs hidden-sm dzsparallaxer auto-init out-of-bootstrap" data-options='{ direction: "normal"}' style="height:40em;">
+            <div class="divimage dzsparallaxer--target " style="width: 100%; height: 50em; background-image: url({{ site.images_path }}/dom4.jpg)"> </div>
         </div>
     </section>
-    <section class="subpage">
+    <section id="domingotext" class="subpage">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h1>Los Domingos</h1>
-                    <h3>Si nos visitas los domingos, es nuestro deseo que te sientas en casa. Al principio tomamos algo juntos para que conozcas a gente y hagas a nuevos amigos. Durante la reunión tenemos la expectativa de quedar con Dios por medio de la alabanza y un mensaje relevante e 18:00
-
-                        Calle Esparteros 1, 3-1, 28012, Madrid
+                    <h3>Calle Esparteros 1, 3-1, 28012, Madrid
 
                         (vinculado a google maps)
 
-                        Metro: Puerta del Sol
-
-                        Nuestras reuniones son en castellano (hay traducción disponible al
-
-                        inglés para aquellos que lo necesiten).  Hay un programa especial para
-
-                        los niños (3-10 años) y cada quincena para los adolescentes.</h3>
+                        Metro: Puerta del Sol</h3>
                 </div>
             </div>
         </div>
     </section>
     <section id="connectoptions" class="dzsparallaxer largecontent">
         <div class="container">
-            <div class="row connect-choice">
+            <div class="row connect-choice btn-group btn-group-justified" role="group" >
                 <div class="col-md-3">
-                    <div class="text-center vcenter">
-                        <a href="mission.html">New Frontiers</a>
-                        <br><span class="smaller color-highlight">Kevin Bartlett</span>
+                    <div class="text-center choicebox">
+                        <a class="btn btn-lg btn-block btn-default"  href="mission.html">NEW FRONTIERS</a>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="text-center vcenter">
-                        <a href="mission.html">Mission</a>
-                        <br><span class="smaller color-highlight">Kevin Bartlett</span>
+                    <div class="text-center choicebox">
+                        <a class="btn btn-lg btn-block btn-default" href="mission.html">MISSION</a>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="text-center vcenter">
-                        <a href="3d.html">3 D</a>
-                        <br><span class="smaller color-highlight">Kevin Bartlett</span>
+                    <div class="text-center choicebox">
+                        <a class="btn btn-lg btn-block btn-default" href="3d.html">3 D</a>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="text-center vcenter">
-                        <a href="cimientos.html">Cimientos</a>
-                        <br><span class="smaller color-highlight">Kevin Bartlett</span>
+                    <div class="text-center choicebox">
+                        <a class="btn btn-lg btn-block btn-default" href="cim.html">CIMIENTOS</a>
                     </div>
                 </div>
             </div>
@@ -86,28 +74,27 @@ menuactive : home
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a href="mailto:info@cristomadrid.es ?Subject=Iglesia" target="_top"><img class="contacticon" src="{{ site.images_path }}/icons/email.png">info@cristomadrid.es</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img class="contacticon" src="{{ site.images_path }}/icons/phone.png">9123 345 567
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img class="contacticon" src="{{ site.images_path }}/icons/fb.png"><a href="https://www.facebook.com/CristoSalvadorMadrid">Facebook</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img class="contacticon" src="{{ site.images_path }}/icons/twitter.png"><a href="https://twitter.com/madrid_cristo" >Twitter</a>
-                        </div>
+                    <div>
+                        <a href="mailto:info@cristomadrid.es ?Subject=Iglesia" target="_top"><img class="contacticon" src="{{ site.images_path }}/icons/email.png">info@cristomadrid.es</a>
                     </div>
                 </div>
-                <div id="contact-address" class="col-md-6">Apt 1<p/>Calle Kev<p/>280344<p/>Madrid<p/></div>
+                <div class="col-md-6">
+                    <div>
+                        <img class="contacticon" src="{{ site.images_path }}/icons/phone.png">9123 345 567
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <img class="contacticon" src="{{ site.images_path }}/icons/fb.png"><a href="https://www.facebook.com/CristoSalvadorMadrid">Facebook</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <img class="contacticon" src="{{ site.images_path }}/icons/twitter.png"><a href="https://twitter.com/madrid_cristo" >Twitter</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

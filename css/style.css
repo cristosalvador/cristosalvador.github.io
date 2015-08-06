@@ -24,12 +24,21 @@ section.largecontent {;
     background-color: rgba(255, 255, 255, 0.65);
 }
 
+#bienvenido {
+    padding: 7em;
+    text-align: right;
+}
+
+#domingotext {
+    padding: 5em;
+}
+
 #contacto {
    /* font-family: LibertadOfficeBold; */
 }
 
 #connectoptions {
-    height: 15em;
+    padding: 7em;
 }
 
 #contact-address {
@@ -37,21 +46,20 @@ section.largecontent {;
     padding: 10px;
 }
 
+.choicebox > a:hover {
+    color: #00a38d;
+}
+
 .contacticon {
     padding: 4px;
     padding-right: 8px;
-    width: 53px;
+    width: 45px;
 }
 
 .connect-choice > div {
-    color: #eee;
-    padding: 15px;
-}
-
-.connect-choice > div > div {
-    border-radius: 3px;
-    border-style: solid;
-    border-width: 2px;
+    color: #00a38d;
+    padding: 20px;
+    font-family: LibertadOfficeBold;
 }
 
 @font-face {
