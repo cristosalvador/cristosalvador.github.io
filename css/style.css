@@ -33,7 +33,8 @@ section.largecontent {;
 #domingotext {
     border-top: solid;
     border-width: 1px;
-    padding: 5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #contacto {
