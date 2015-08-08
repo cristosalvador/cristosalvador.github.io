@@ -42,7 +42,8 @@ section.largecontent {;
 }
 
 #connectoptions {
-    padding: 7em;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 #contact-address {
