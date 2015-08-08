@@ -31,6 +31,8 @@ section.largecontent {;
 }
 
 #domingotext {
+    border-top: solid;
+    border-width: 1px;
     padding: 5em;
 }
 
