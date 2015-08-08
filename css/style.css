@@ -6,7 +6,7 @@ GENERAL STYLING
 }
 
 section.largecontent {;
-   background:  #1c1a17;
+   background:  #00a38d;
 }
 
 #hero {
@@ -25,7 +25,8 @@ section.largecontent {;
 }
 
 #bienvenido {
-    padding: 7em;
+    padding-top: 7em;
+    padding-bottom: 7em;
     text-align: right;
 }
 
@@ -34,7 +35,8 @@ section.largecontent {;
 }
 
 #contacto {
-   /* font-family: LibertadOfficeBold; */
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #connectoptions {
@@ -46,6 +48,14 @@ section.largecontent {;
     padding: 10px;
 }
 
+#footersection {
+    font-family: LibertadOfficeBold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.choicebox {
+    width: 250px;
+}
 .choicebox > a:hover {
     color: #00a38d;
 }

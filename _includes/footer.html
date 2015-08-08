@@ -1,11 +1,11 @@
-<footer class="mcon-footer fullwidth">
+<footer id="footersection" class="mcon-footer fullwidth">
 	<div class="container fullwidth">
 	    <div class="row">
 	        <div class="col-md-6">
-	            {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+				© {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} 2015
 	        </div>
 	        <div class="col-md-6" style="text-align: right">
-	            Something nice
+				{% include api_twitter.html %}
 	        </div>
 	    </div>
 	</div>
