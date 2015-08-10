@@ -16,7 +16,7 @@ section.largecontent {;
 
 .heroimage {
    height: 13em;
-   background-color: rgba(255, 255, 255, 0.65);
+   background-color: rgba(255, 255, 255, 0.25);
    border-radius: 45px;
 }
 
@@ -43,8 +43,8 @@ section.largecontent {;
 }
 
 #connectoptions {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 #contact-address {
@@ -54,8 +54,8 @@ section.largecontent {;
 
 #footersection {
     font-family: LibertadOfficeBold;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .page-content {
@@ -895,7 +895,7 @@ table.dzs-table tr td:first-child{
     text-align: center; }
 
 a{
-    color: rgba(174,25,25,1);
+    color: #934c4c;
 }
 
 .bigfeature i {
