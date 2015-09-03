@@ -4,10 +4,9 @@ menuactive : home
 ---
 
 	<section id="hero" class="dzsparallaxer auto-init use-loading" data-options='{ direction: "reverse", mode_scroll: "fromtop"}' style="height:50em;">
-	<div class="divimage dzsparallaxer--target " style="width: 100%; height: 60em; background-image: url({{ site.images_path }}/hero_final.jpg)"> </div>
+	<div class="divimage dzsparallaxer--target " style="width: 100%; height: 60em; background-image: url({{ site.mainimage }})"> </div>
 	    <div class="center-it text-center">
 	        <img class="heroimage" src="{{ site.images_path }}/logos/Solo_sinfondo_crop.png">
-            <!--img class="herotext" src="{{ site.images_path }}/logos/Lateral_sinfondo_crop.png"-->
 	    </div>
 	</section>
 
@@ -86,19 +85,21 @@ menuactive : home
         </div>
     </section>
     <section id="contacto" class="">
-        <div class="container">
+        <div itemscope itemtype="http://schema.org/Organization" class="container">
             <div class="row">
-                <div class="col-md-12"><h1 class="">Contacto</h1><h2>Ponte en contacto con nosotros:</h2></div>
+                <div class="col-md-12"><h1 class="">Contacto</h1><h2>Ponte en contacto con nosotros:</h2>
+                    <span itemprop="name" style="display: none">Iglesia Cristo Salvador, Madrid.</span>
+                </div>
             </div>
-            <div class="row">
+          <div class="row">
                 <div class="col-md-6">
                     <div>
-                        <h4><a href="mailto:info@cristomadrid.es ?Subject=Iglesia" target="_top"><img class="contacticon" src="{{ site.images_path }}/icons/email.png">info@cristomadrid.es</a></h4>
+                        <h4><a href="mailto:info@cristomadrid.es ?Subject=Iglesia" target="_top"><img class="contacticon" src="{{ site.images_path }}/icons/email.png"><span itemprop="email">info@cristomadrid.es</span></a></h4>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div>
-                        <h4><img class="contacticon" src="{{ site.images_path }}/icons/phone.png">9123 345 567</h4>
+                        <h4><span itemprop="telephone"><img class="contacticon" src="{{ site.images_path }}/icons/phone.png"><a href="tel:9123345567">9123 345 567</a></span></h4>
                     </div>
                 </div>
             </div>
