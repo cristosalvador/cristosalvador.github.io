@@ -54,8 +54,8 @@ section.largecontent {;
 
 #footersection {
     font-family: LibertadOfficeBold;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 #connectoptions {
@@ -73,6 +73,10 @@ section.largecontent {;
     display: inline-block;
     position: relative;
     height: 20px;
+    top: 6px;
+}
+
+.titlefooter{
     top: 6px;
 }
 
