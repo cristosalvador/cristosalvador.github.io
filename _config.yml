@@ -1,6 +1,6 @@
 # Site settings
 title: Iglesia Cristo Salvador Madrid
-email: info@cristomadrid.es
+email: contacto@cristomadrid.es
 description: "Iglesia Cristo Salvador es una iglesia evangélica de Madrid, descubriendo la gracia de Dios. Somos parte de una familia de iglesias que se llama Commission; Commission es una parte de Newfrontiers."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.cristomadrid.es" # the base hostname & protocol for your site
